@@ -1,0 +1,33 @@
+.card {
+    margin-bottom: 20px;
+  }
+
+
+  @media (min-width: 576px) {
+    .card {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+    }      
+    
+  }
+  .container
+  {
+      margin-top: 10px;
+      width: 30%;
+  }
+  .card-body {
+      text-align: center;
+      background-color: lightskyblue;
+  }
+  body{
+    
+    padding: 20px;
+    background-color: blanchedalmond;
+  }
+  h2 {
+    text-align: center;
+    color: red;
+    font-weight: bold
+  }
+  
